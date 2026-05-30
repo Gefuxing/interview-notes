@@ -3,45 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>面试笔记 - Redis 夺命连环40问</title>
-    <!-- Docsify 核心库 -->
-    <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/docsify.min.js"></script>
-    <!-- 搜索插件 -->
-    <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/plugins/search.min.js"></script>
-    <!-- 侧边栏插件 -->
-    <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/plugins/sidebar.min.js"></script>
-    <!-- 代码高亮 -->
-    <script src="https://cdn.jsdelivr.net/npm/prismjs@1/components/prism-python.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/prismjs@1/components/prism-bash.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/prismjs@1/components/prism-c.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/prismjs@1/components/prism-lua.min.js"></script>
-    <!-- 主题样式 -->
+    <title>面试笔记</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
+    <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/docsify.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/plugins/search.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/plugins/sidebar.min.js"></script>
 </head>
 <body>
-<div id="app">加载中...</div>
+<div id="app"></div>
 <script>
     window.$docsify = {
         name: '面试笔记',
-        repo: 'https://github.com/Gefuxing/interview-notes',
-        maxAge: 60000,
-        auto2top: true,
-
-        // 配置搜索
-        search: {
-            placeholder: '🔍 搜索',
-            noData: '没有找到结果',
-            depth: 3,
-        },
-
-        // 侧边栏配置
         loadSidebar: '_sidebar.md',
-        subMaxLevel: 3,
-
-        // 文件别名
-        alias: {
-            '/': '/README.md',
-            '/redis/': '/redis/index.md'
+        subMaxLevel: 2,
+        auto2top: true,
+        search: {
+            placeholder: '搜索',
+            depth: 2
         }
     }
 </script>
