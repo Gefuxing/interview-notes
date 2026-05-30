@@ -1,0 +1,21 @@
+{
+  "name": "interview-notes",
+  "version": "1.0.0",
+  "description": "> 专为程序员打造的知识库，持续更新中...",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gefuxing/interview-notes.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Gefuxing/interview-notes/issues"
+  },
+  "homepage": "https://github.com/Gefuxing/interview-notes#readme"
+}
