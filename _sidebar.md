@@ -1,45 +1,43 @@
 * 📚 面试笔记
 
   - [首页](./)
-  - [Redis](./redis/)
 
 * 🚀 编程语言
 
-  - [Java](./Java100问/)
-  - [Go](./Go100问/)
+  - [Java](./java/)
+  - [Go](./go/)
 
 * 🗄️ 数据库
 
-  - [MySQL](./MySQL100问/)
-  - [MySQL40问](./MySQL40问/)
-  - [MongoDB](./MongoDB100问/)
+  - [MySQL](./mysql/)
+  - [MySQL40](./mysql40/)
+  - [MongoDB](./mongodb/)
   - [Redis](./redis/)
-  - [ES](./ES100问/)
-  - [Kafka](./Kafka100问/)
-  - [RabbitMQ](./RabbitMQ100问/)
+  - [ES](./es/)
+  - [Kafka](./kafka/)
+  - [RabbitMQ](./rabbitmq/)
 
 * ☁️ 架构与部署
 
-  - [Docker与K8S](./Docker与K8S100问/)
-  - [Spring](./Spring100问/)
-  - [分布式与微服务](./分布式与微服务100问/)
-  - [DDD](./DDD100问/)
-  - [CI/CD](./CI.CD与DevOps100问/)
+  - [Docker](./docker/)
+  - [Spring](./spring/)
+  - [Distributed](./distributed/) (分布式与微服务)
+  - [DDD](./ddd/) (领域驱动设计)
+  - [CI/CD](./cicd/)
 
-* 💻 基础
+* 💻 基础知识
 
-  - [JVM](./JVM100问/)
-  - [并发编程](./并发编程100问/)
-  - [操作系统](./操作系统100问/)
-  - [计算机网络](./计算机网络100问/)
+  - [JVM](./jvm/)
+  - [Concurrent](./concurrent/) (并发编程)
+  - [OS](./os/) (操作系统)
+  - [Network](./network/) (计算机网络)
 
 * 📐 其他
 
-  - [数据结构与算法](./数据结构与算法100问/)
-  - [设计模式](./设计模式100问/)
-  - [系统设计](./系统设计100问/)
-  - [网络安全](./网络安全100问/)
-  - [Linux运维](./Linux与运维100问/)
-  - [AI](./AI100问/)
-  - [项目场景题](./项目场景题100问/)
-  - [Java项目场景题](./面试逃不掉的Java项目场景题合集/)
+  - [Algorithm](./algo/) (数据结构与算法)
+  - [Patterns](./patterns/) (设计模式)
+  - [SystemDesign](./systemdesign/) (系统设计)
+  - [Security](./security/) (网络安全)
+  - [Linux](./linux/)
+  - [AI](./ai/)
+  - [Projects](./projects/) (项目场景题)
