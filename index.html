@@ -19,7 +19,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
 </head>
 <body>
-<div id="app">📚 面试笔记加载中...</div>
+<div id="app">加载中...</div>
 <script>
     window.$docsify = {
         name: '面试笔记',
@@ -29,7 +29,7 @@
 
         // 配置搜索
         search: {
-           placeholder: '🔍 搜索',
+            placeholder: '🔍 搜索',
             noData: '没有找到结果',
             depth: 3,
         },
@@ -38,8 +38,11 @@
         loadSidebar: '_sidebar.md',
         subMaxLevel: 3,
 
-        // 启用封面
-        coverpage: false,
+        // 文件别名
+        alias: {
+            '/': '/README.md',
+            '/redis/': '/redis/index.md'
+        }
     }
 </script>
 </body>
