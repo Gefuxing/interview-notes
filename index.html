@@ -4,16 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>面试笔记 - Redis 夺命连环40问</title>
-    <style>
-        :root {
-            --theme-color: #3299ff;
-            --sidebar-nav-bg: #f8f9fa;
-            --sidebar-active-bg: #e3f2fd;
-        }
-        body {
-            font-family -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-        }
-    </style>
     <!-- Docsify 核心库 -->
     <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/docsify.min.js"></script>
     <!-- 搜索插件 -->
@@ -29,36 +19,27 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
 </head>
 <body>
-<div id="app">📚 面试笔记</div>
+<div id="app">📚 面试笔记加载中...</div>
 <script>
     window.$docsify = {
         name: '面试笔记',
-        repo: '',
+        repo: 'https://github.com/Gefuxing/interview-notes',
         maxAge: 60000,
         auto2top: true,
-        scrollToTop: { smooth: true },
 
         // 配置搜索
         search: {
-            placeholder: '🔍 搜索',
+           placeholder: '🔍 搜索',
             noData: '没有找到结果',
             depth: 3,
         },
 
         // 侧边栏配置
-        loadSidebar: true,
+        loadSidebar: '_sidebar.md',
         subMaxLevel: 3,
 
-        // 开启导航栏
-        navbar: [
-            {
-                text: '📖 目录',
-                children: [
-                    { text: '首页', link: '/' },
-                    { text: 'Redis 40问', link: '/redis/' },
-                ]
-            }
-        ],
+        // 启用封面
+        coverpage: false,
     }
 </script>
 </body>
